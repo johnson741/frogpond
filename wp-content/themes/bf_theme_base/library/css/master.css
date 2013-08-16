@@ -52,3 +52,100 @@ h1 span {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
+
+/* ============== MAIN CONTENT ============== */
+
+section {
+    clear: both;
+}
+#banner {
+    width: 100%;
+    background: #6d2437;
+    height: 400px;
+    color: #fff;
+}
+    #banner h3, #banner p {
+        float: right;
+        max-width: 320px;
+        text-align: left;
+    }
+    #banner #banner-img {
+        float: left;
+        max-width: 780px;
+    }
+    #banner h3 {
+        margin: 22px 0;
+        font-size: 2.5em;
+    }
+    #banner p {
+        font-size: 0.9em;
+        line-height: 1.7; 
+    }
+    #banner #new-to-us {
+        text-align: center;
+        border: #fff 2px solid;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        width: 320px;
+        height: 50px;
+        margin-top: 20px;
+        background: #a85e71; 
+    }
+    #banner #new-to-us:hover {
+        background: #3645cf;
+    }
+    #banner #new-to-us a {
+        width: 320px;
+        height: 50px;
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 46px;
+        color: #fff; 
+        display: block;
+    }
+#main-content .wrapper {
+    clear: both;
+}
+    #main-content .wrapper .col {
+        float: left;
+        height: 320px;
+        margin: 40px 0;
+    }
+    #main-content .wrapper #left {
+        width: 370px;
+        border-right: #a1a1a1 1px solid;
+        padding-right: 30px;
+    }
+    #main-content .wrapper #center {
+        width: 400px;
+        border-right: #a1a1a1 1px solid;
+        padding: 0 30px;
+    }
+    #main-content .wrapper #right {
+        width: 370px;
+        padding-left: 30px;
+    }
+    #main-content .col h2 {
+        font-size: 1.875em;
+        margin-bottom: 20px;
+    }
+    #main-content .col p {
+        font-size: 0.9em;
+        line-height: 2;
+    }
+    #main-content .col .colbutton {
+        display: block;
+        width: 170px;
+        height: 34px;
+        padding: 2px 15px;
+        font-size: 0.9em;
+        margin-top: 20px;
+        background: #6747a6 url(../images/bttn-arrow.png) 130px no-repeat;
+        color: #fff;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        line-height: 30px;
+    }
+    #main-content .col .colbutton:hover {
+        background: #6f41c9 url(../images/bttn-arrow.png) 135px no-repeat;
+    }
